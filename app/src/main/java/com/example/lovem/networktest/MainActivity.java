@@ -45,6 +45,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         }
     }
 
+
     private void sendRequestWithHttpUrlConnection(){
         new Thread(new Runnable() {
             @Override
